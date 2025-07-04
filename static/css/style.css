@@ -151,6 +151,7 @@ body {
 @media (max-width: 480px) {
     body {
         padding: 0;
+        overflow: hidden;
     }
     
     .container {
