@@ -1,6 +1,6 @@
 function openWhatsApp() {
     // Substitua pelo número real da empresa
-    const phoneNumber = "5511999999999"; // Formato: código do país + DDD + número
+    const phoneNumber = "556392242480"; // Formato: código do país + DDD + número
     const message = encodeURIComponent("Olá! Gostaria de conhecer mais sobre as joias da ANAMI.");
     window.open(`https://wa.me/556392242480?text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20as%20joias%20da%20ANAMI.`, '_blank');
 }
