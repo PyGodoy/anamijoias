@@ -150,8 +150,19 @@ body {
 .link-button:nth-child(4) { animation-delay: 0.9s; }
 
 @media (max-width: 480px) {
+    body {
+        padding: 0;
+    }
+    
     .container {
+        max-width: 100%;
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
         padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .logo-circle {
